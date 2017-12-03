@@ -54,7 +54,7 @@
         window.location.href = "login.html";
     </script>
 </c:if>
-<h2 style="text-align: center;font-family: 'Adobe 楷体 Std R';color: palevioletred">图 书 馆</h2>
+<h2 style="text-align: center;font-family: 'Adobe 楷体 Std R';color: palevioletred">NIIT 图 书 馆</h2>
 <div style="float:right;" id="github_iframe"></div>
 <script>
     /**
