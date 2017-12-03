@@ -1,7 +1,7 @@
-package com.book.service;
+package com.niit.book.service;
 
-import com.book.dao.LendDao;
-import com.book.domain.Lend;
+import com.niit.book.dao.LendDao;
+import com.niit.book.domain.Lend;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

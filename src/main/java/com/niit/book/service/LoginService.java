@@ -1,10 +1,10 @@
-package com.book.service;
+package com.niit.book.service;
 
-import com.book.dao.AdminDao;
-import com.book.dao.ReaderCardDao;
-import com.book.dao.ReaderInfoDao;
-import com.book.domain.ReaderCard;
-import com.book.domain.ReaderInfo;
+import com.niit.book.dao.AdminDao;
+import com.niit.book.dao.ReaderCardDao;
+import com.niit.book.dao.ReaderInfoDao;
+import com.niit.book.domain.ReaderCard;
+import com.niit.book.domain.ReaderInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

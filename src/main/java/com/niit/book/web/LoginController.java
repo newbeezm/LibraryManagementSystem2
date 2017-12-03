@@ -1,8 +1,8 @@
-package com.book.web;
+package com.niit.book.web;
 
-import com.book.domain.Admin;
-import com.book.domain.ReaderCard;
-import com.book.service.LoginService;
+import com.niit.book.domain.Admin;
+import com.niit.book.domain.ReaderCard;
+import com.niit.book.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

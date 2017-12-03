@@ -1,7 +1,7 @@
-package com.book.dao;
+package com.niit.book.dao;
 
-import com.book.domain.ReaderCard;
-import com.book.domain.ReaderInfo;
+import com.niit.book.domain.ReaderCard;
+import com.niit.book.domain.ReaderInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowCallbackHandler;

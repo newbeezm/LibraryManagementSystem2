@@ -1,6 +1,6 @@
-package com.book.dao;
+package com.niit.book.dao;
 
-import com.book.domain.Lend;
+import com.niit.book.domain.Lend;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowCallbackHandler;

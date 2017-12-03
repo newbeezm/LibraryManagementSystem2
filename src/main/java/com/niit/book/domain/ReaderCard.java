@@ -1,4 +1,4 @@
-package com.book.domain;
+package com.niit.book.domain;
 
 import java.io.Serializable;
 

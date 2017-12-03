@@ -1,10 +1,10 @@
-package com.book.web;
+package com.niit.book.web;
 
-import com.book.domain.ReaderCard;
-import com.book.domain.ReaderInfo;
-import com.book.service.LoginService;
-import com.book.service.ReaderCardService;
-import com.book.service.ReaderInfoService;
+import com.niit.book.domain.ReaderCard;
+import com.niit.book.domain.ReaderInfo;
+import com.niit.book.service.LoginService;
+import com.niit.book.service.ReaderCardService;
+import com.niit.book.service.ReaderInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

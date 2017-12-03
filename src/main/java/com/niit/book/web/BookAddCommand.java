@@ -1,4 +1,4 @@
-package com.book.web;
+package com.niit.book.web;
 
 import java.math.BigDecimal;
 import java.text.ParseException;
