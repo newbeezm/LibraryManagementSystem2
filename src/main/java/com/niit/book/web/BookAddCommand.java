@@ -7,7 +7,6 @@ import java.util.Date;
 
 public class BookAddCommand {
 
-
     private String name;
     private String author;
     private String publish;
