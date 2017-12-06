@@ -132,7 +132,6 @@
                     </c:if>
 
                 </tr>
-                </tbody>
             </table>
         </div>
     </div>
