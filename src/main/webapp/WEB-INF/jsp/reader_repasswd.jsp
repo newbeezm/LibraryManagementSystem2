@@ -87,8 +87,7 @@
         <div class="form-group">
             <label for="newPasswd" class="col-sm-2 control-label">新密码</label>
             <div class="col-sm-10">
-                <input type="password" class="form-control" id="newPasswd" name="newPasswd" placeholder="输入新密码"
-                       placeholder="Password">
+                <input type="password" class="form-control" id="newPasswd" name="newPasswd" placeholder="输入新密码">
             </div>
         </div>
         <div class="form-group">

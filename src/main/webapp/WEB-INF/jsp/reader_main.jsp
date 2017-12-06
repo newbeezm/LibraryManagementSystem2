@@ -19,7 +19,6 @@
     </style>
 </head>
 <body>
-<body>
 <nav class="navbar navbar-default" role="navigation" style="background-color:#fff" style="background-color:#fff">
     <div class="container-fluid">
         <div class="navbar-header" style="margin-left: 8%;margin-right: 1%">
