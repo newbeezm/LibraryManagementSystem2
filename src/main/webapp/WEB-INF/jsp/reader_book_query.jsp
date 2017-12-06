@@ -126,18 +126,18 @@
                 <tbody>
                 <c:forEach items="${books}" var="book">
                     <tr>
-                        <td><c:out value="${book.name}"></c:out></td>
-                        <td><c:out value="${book.author}"></c:out></td>
-                        <td><c:out value="${book.publish}"></c:out></td>
-                        <td><c:out value="${book.isbn}"></c:out></td>
-                        <td><c:out value="${book.price}"></c:out></td>
+                        <td><c:out value="${book.name}"/></td>
+                        <td><c:out value="${book.author}"/></td>
+                        <td><c:out value="${book.publish}"/></td>
+                        <td><c:out value="${book.isbn}"/></td>
+                        <td><c:out value="${book.price}"/></td>
                         <c:if test="${book.state==1}">
                             <td>在馆</td>
                         </c:if>
                         <c:if test="${book.state==0}">
                             <td>借出</td>
                         </c:if>
-                        <td><a href="readerbookdetail.html?bookId=<c:out value="${book.bookId}"></c:out>">
+                        <td><a href="readerbookdetail.html?bookId=<c:out value="${book.bookId}"/>">
                             <button type="button" class="btn btn-success btn-xs">详情</button>
                         </a></td>
                     </tr>

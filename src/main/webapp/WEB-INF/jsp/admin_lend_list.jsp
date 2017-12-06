@@ -142,12 +142,12 @@
             <tbody>
             <c:forEach items="${list}" var="alog">
                 <tr>
-                    <td><c:out value="${alog.sernum}"></c:out></td>
-                    <td><c:out value="${alog.bookId}"></c:out></td>
-                    <td><c:out value="${alog.readerId}"></c:out></td>
-                    <td><c:out value="${alog.lendDate}"></c:out></td>
-                    <td><c:out value="${alog.backDate}"></c:out></td>
-                    <td><a href="deletebook.html?bookId=<c:out value="${alog.sernum}"></c:out>">
+                    <td><c:out value="${alog.sernum}"/></td>
+                    <td><c:out value="${alog.bookId}"/></td>
+                    <td><c:out value="${alog.readerId}"/></td>
+                    <td><c:out value="${alog.lendDate}"/></td>
+                    <td><c:out value="${alog.backDate}"/></td>
+                    <td><a href="deletebook.html?bookId=<c:out value="${alog.sernum}"/>">
                         <button type="button" class="btn btn-danger btn-xs">删除</button>
                     </a></td>
                 </tr>
