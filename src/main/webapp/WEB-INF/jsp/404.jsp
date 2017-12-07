@@ -156,6 +156,7 @@
     <p><em id="num">3</em>秒后，自动跳转到上一页</p>
     <script>
         var i = 3;
+
         function djs() {
             if (i == 0) {
                 window.history.back();
@@ -163,6 +164,7 @@
             document.getElementById("num").innerText = i--;
             setTimeout("djs()", 1000);
         }
+
         djs();
     </script>
 </div>

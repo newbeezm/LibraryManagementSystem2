@@ -15,9 +15,9 @@ import java.util.Date;
 public class ReaderInfoDao {
 
     private final static String ADD_READER_INFO_SQL = "INSERT INTO reader_info VALUES(?,?,?,?,?,?)";
-    private final static String DELETE_READER_INFO_SQL = "DELETE FROM reader_info where reader_id = ? ";
-    private final static String GET_READER_INFO_SQL = "SELECT * FROM reader_info where reader_id = ? ";
-    private final static String UPDATE_READER_INFO = "UPDATE reader_info set name = ? ,sex = ? ,birth = ? ,address = ? ,telcode = ? where reader_id = ? ";
+    private final static String DELETE_READER_INFO_SQL = "DELETE FROM reader_info WHERE reader_id = ? ";
+    private final static String GET_READER_INFO_SQL = "SELECT * FROM reader_info WHERE reader_id = ? ";
+    private final static String UPDATE_READER_INFO = "UPDATE reader_info SET name = ? ,sex = ? ,birth = ? ,address = ? ,telcode = ? WHERE reader_id = ? ";
     private final static String ALL_READER_INFO_SQL = "SELECT * FROM reader_info";
     private JdbcTemplate jdbcTemplate;
 

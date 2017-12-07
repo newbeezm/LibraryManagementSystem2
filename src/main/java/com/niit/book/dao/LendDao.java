@@ -15,7 +15,7 @@ import java.util.Date;
 @Repository
 public class LendDao {
 
-    private final static String BOOK_RETURN_SQL_ONE = "UPDATE lend_list SET back_date = ? WHERE book_id = ? AND back_date is NULL";
+    private final static String BOOK_RETURN_SQL_ONE = "UPDATE lend_list SET back_date = ? WHERE book_id = ? AND back_date IS NULL";
     private final static String BOOK_RETURN_SQL_TWO = "UPDATE book_info SET state = 1 WHERE book_id = ? ";
     private final static String BOOK_LEND_SQL_ONE = "INSERT INTO lend_list (book_id,reader_id,lend_date) VALUES ( ? , ? , ? )";
     private final static String BOOK_LEND_SQL_TWO = "UPDATE book_info SET state = 0 WHERE book_id = ? ";

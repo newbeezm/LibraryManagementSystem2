@@ -7,9 +7,9 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class AdminDao {
 
-    private static final String MATCH_ADMIN_SQL = "SELECT COUNT(*) FROM admin where admin_id = ? and password = ? ";
-    private static final String RE_PASSWORD_SQL = "UPDATE admin set password = ? where admin_id = ? ";
-    private static final String GET_PASSWD_SQL = "SELECT password from admin where admin_id = ?";
+    private static final String MATCH_ADMIN_SQL = "SELECT COUNT(*) FROM admin WHERE admin_id = ? AND password = ? ";
+    private static final String RE_PASSWORD_SQL = "UPDATE admin SET password = ? WHERE admin_id = ? ";
+    private static final String GET_PASSWD_SQL = "SELECT password FROM admin WHERE admin_id = ?";
     private JdbcTemplate jdbcTemplate;
 
     @Autowired
