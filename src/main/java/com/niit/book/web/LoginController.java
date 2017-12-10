@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 
-//标注为一个Spring mvc的Controller
 @Controller
 public class LoginController {
 
