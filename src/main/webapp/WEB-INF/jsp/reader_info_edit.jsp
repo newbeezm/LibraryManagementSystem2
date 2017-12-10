@@ -12,7 +12,7 @@
     </style>
 </head>
 <body>
-<nav class="navbar navbar-default" role="navigation" style="background-color:#fff">
+<nav class="navbar navbar-default" role="navigation" style="background-color:#ffffff">
     <div class="container-fluid">
         <div class="navbar-header" style="margin-left: 8%;margin-right: 1%">
             <a class="navbar-brand " href="reader_main.html"><p class="text-primary">我的NIIT图书馆</p></a>

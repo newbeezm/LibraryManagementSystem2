@@ -206,7 +206,7 @@
     </a>
 </div>
 <div class="panel panel-default" id="login">
-    <div class="panel-heading" style="background-color: #fff">
+    <div class="panel-heading" style="background-color: #ffffff">
         <h3 class="panel-title">请登录</h3>
     </div>
     <div class="panel-body">

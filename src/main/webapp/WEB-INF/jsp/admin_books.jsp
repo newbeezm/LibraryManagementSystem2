@@ -21,7 +21,7 @@
 </head>
 <body>
 
-<nav style="position:fixed;z-index: 999;width: 100%;background-color: #fff" class="navbar navbar-default"
+<nav style="position:fixed;z-index: 999;width: 100%;background-color: #ffffff" class="navbar navbar-default"
      role="navigation">
     <div class="container-fluid">
         <div class="navbar-header" style="margin-left: 8%;margin-right: 1%">
@@ -121,7 +121,7 @@
     </c:if>
 </div>
 <div class="panel panel-default" style="width: 90%;margin-left: 5%">
-    <div class="panel-heading" style="background-color: #fff">
+    <div class="panel-heading" style="background-color: #ffffff">
         <h3 class="panel-title">
             全部图书
         </h3>

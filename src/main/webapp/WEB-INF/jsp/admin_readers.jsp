@@ -18,7 +18,7 @@
     <script>alert("${info}");
     window.location.href = "allreaders.html"</script>
 </c:if>
-<nav style="position:fixed;z-index: 999;width: 100%;background-color: #fff" class="navbar navbar-default"
+<nav style="position:fixed;z-index: 999;width: 100%;background-color: #ffffff" class="navbar navbar-default"
      role="navigation">
     <div class="container-fluid">
         <div class="navbar-header" style="margin-left: 8%;margin-right: 1%">
