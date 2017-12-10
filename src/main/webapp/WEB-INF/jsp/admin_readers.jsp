@@ -8,7 +8,7 @@
     <script src="js/bootstrap.min.js"></script>
     <style>
         body {
-            background-color: rgb(240, 242, 245);
+            background-color: #f0f2f5;
         }
     </style>
 

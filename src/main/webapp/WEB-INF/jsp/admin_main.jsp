@@ -18,7 +18,7 @@
             margin: 0;
             padding: 0;
             overflow: visible;
-            background-color: rgb(240, 242, 245);
+            background-color: #f0f2f5;
         }
 
         #newsa {
